@@ -9,6 +9,7 @@ body {
 }
 .text2 {
     font-family: 'Roboto';
+    color: #1E3A8A;
 }
 
 .navbar {
@@ -279,11 +280,25 @@ body {
 .services-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #0d6efd;
+    color: #1E3A8A;
 }
 
 #service {
     background: #f8f9fa;
+}
+
+#service .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+#service .container .image-rate img {
+    width: 400px;
+    height: 400px;
 }
 
 #service .testi-card {
@@ -299,17 +314,19 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.row .top {
+.card .card-header {
+    background: #0b5ed7;
+    color: #fff;
+    border: none;
     display: flex;
     flex-direction: row;
     text-align: center;
     padding: 15px;
 }
 
-.image img {
-    width: 50px;
-    height: 50px;
-    margin-top: 1rem;
+.card .card-header img {
+    width: 40px;
+    height: 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -322,7 +339,7 @@ body {
 .contact-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #0d6efd !important;
+    color: #1E3A8A !important;
 }
 
 #contact {
@@ -366,7 +383,6 @@ footer {
     color: #fff;
     text-align: left;
     padding: 20px 0;
-    margin-top: 20rem;
 }
 
 footer .container {
